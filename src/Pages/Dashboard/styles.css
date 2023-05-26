@@ -1,0 +1,46 @@
+.fluid-background {
+  background-image: url("../../Assets//bg.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.white-box {
+  height: 60vh;
+  width: 40%;
+  background-color: white;
+  overflow-y: scroll;
+  border-radius: 12px;
+}
+.white-box::-webkit-scrollbar {
+  width: 3px;
+  color: grey;
+  border-radius: 45px;
+}
+.each-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0 25px !important;
+  margin: 0 25px !important;
+  border-bottom: 0.5px solid grey;
+  margin-top: -10px !important;
+}
+.each-container img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.head-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.head {
+  color: rgb(103, 92, 92);
+  font-size: 25px;
+  font-weight: 800;
+  margin: 25px 0;
+}

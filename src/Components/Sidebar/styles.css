@@ -1,0 +1,32 @@
+.sidebar-container {
+  height: 80vh;
+  width: 17vw;
+  background-color: rgb(60, 52, 214);
+  border-radius: 25px;
+  margin: 50px 20px;
+  color: rgba(236, 234, 234, 0.555);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.side-heads {
+  width: 70%;
+}
+.active {
+  color: white !important;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right-icon {
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  color: grey;
+  margin: 0 0 !important;
+  margin-right: -35px !important;
+}

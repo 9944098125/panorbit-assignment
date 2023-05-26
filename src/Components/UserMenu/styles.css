@@ -1,0 +1,68 @@
+.user-menu-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.user-menu-container img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.user-menu-box {
+  background-color: white;
+  border-radius: 12px;
+  height: fit-content;
+  width: 250px;
+  position: absolute;
+  top: 60px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px grey;
+  padding: 25px 10px;
+  z-index: 999999;
+}
+.user-menu-box img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.user-menu-box .user-name {
+  color: rgb(57, 52, 52);
+  font-size: 20px;
+  margin: 0 0 !important;
+}
+.user-menu-box .email {
+  color: rgb(151, 146, 146);
+  font-size: 15px;
+  margin: 0 0 !important;
+}
+.sign-out-btn {
+  background-color: red;
+  border-radius: 45px;
+  padding: 5px 15px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.friends-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0;
+}
+.friends-row img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+.friends {
+  margin: 0 0;
+}
